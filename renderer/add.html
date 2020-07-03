@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>添加音乐</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container mt-4">
+            <h1>添加音乐到曲库</h1>
+            <div id="files-list"></div>
+            <button id="select-music-button" class="btn btn-outline-primary btn-lg btn-block mt-4" type="button">
+                选择音乐
+            </button>
+            <button id="add-music" class="btn btn-primary btn-lg btn-block mt-4" type="button">
+                导入音乐
+            </button>
+        </div>
+        <script>
+            require('./add.js')
+        </script>
+    </body>
+</html>
